@@ -6,5 +6,5 @@ def create_flask_app():
 
     @app.route('/')
     def index():
-        return '<p> Flask Server </p>'
+        return '<p> Welcome to Flask Server </p>'
     return app
